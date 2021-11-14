@@ -17,7 +17,8 @@
         <h1 class="display-5 fw-bold">About the App</h1>
         <p class="col-md-8 fs-4">Created by Paul Richardson to meet homework requirements.</p>
         <br>
-        <a href='https://friendly-raman-4694af.netlify.app/index.html' id="aboutButton" class="btn btn-dark btn-lg" role="button">Back to App</a>
+        <a href='index.html' id="aboutButton" class="btn btn-dark btn-lg" role="button">Back to App</a>
+        <!-- <a href='https://friendly-raman-4694af.netlify.app/index.html' id="aboutButton" class="btn btn-dark btn-lg" role="button">Back to App</a> -->
       </div>
     </div>
 </head>
@@ -27,15 +28,19 @@
     <div class="text-left">
       <h3>Notes</h3>
       <p>This app uses HTML, CSS & Javascript to pull data from TMDB - The Movie
-        Database. The call to the webservice uses AJAX for the GET and to handle
-        the JSON result set. The API path is using the Get Trending call.
-        This GET function provides a lot of information about the resulting
-        titles BUT one MAJOR issue with the call is that it does NOT provide a
-        way to filter ADULT titles directly. To avoid adult titles with this
-        GET function you would have to look up additional information with the
-        associated title ids.Addtionally, I omited using "person" as a media type option for the app.</p>
+         Database. The call to the web service uses AJAX for the GET method and
+         handles the JSON result set. The data comes from the GET Trending path.
+         The GET Trending path provides a lot of information about the resulting
+         titles, BUT one MAJOR issue with the call is that it does NOT provide
+         the ADULT tag for filtering titles directly. To avoid adult titles with
+         this GET Trending path, you must look up additional information with
+         the associated title IDs. I did not take this extra step. Unfortunately,
+         I did find one title in the result set that is intended for adults only.
+         Last note, I did not provide the ability to search all "media types"
+         available with the path. I choose to omit using the "person" media type
+         option for the app.</p>
       <hr>
-      <h3>GET TRENDING: <em>/trending/{media_type}/{time_window}</em></h3>
+      <h3>GET TRENDING: <em style='color:green;'> /trending/{media_type}/{time_window}</em></h3>
 
       <p>Get the daily or weekly trending items. The daily trending list tracks
         items over the period of a day while items have a 24 hour half life.

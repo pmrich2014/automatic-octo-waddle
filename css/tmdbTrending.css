@@ -11,6 +11,21 @@ label {
   font-size: 25px;
 }
 
+.scroll-top {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 99;
+  background: red;
+  color: #fff;
+  border-radius: 30px;
+  padding: 15px;
+  font-weight: bold;
+  line-height: normal;
+  border: none;
+}
+
+
 .card-title, h1, h3, h4, option {
   font-family: 'Bebas Neue', cursive;
 }
@@ -76,8 +91,10 @@ label {
 }
 
 @media only screen and (max-width: 500px) {
-  body {
+  body, p {
     text-align: left;
+    font-size: 20px;  
+
   }
 
   label {
@@ -90,6 +107,21 @@ label {
 
   h1 {
     text-align: center;
+  }
+
+  .scroll-top {
+    position: fixed;
+    opacity: 40%;
+    bottom: 13%;
+    right: 10px;
+    z-index: 99;
+    background: black;
+    color: #fff;
+    border-radius: 30px;
+    padding: 15px;
+    font-weight: bold;
+    line-height: normal;
+    border: none;
   }
 
   .form-select {

@@ -20,6 +20,7 @@ $(document).ready(function($) {
 
   });
 
+
   //default values
   media_type = 'movie';
   time_window = 'week';
@@ -33,6 +34,10 @@ $(document).ready(function($) {
 
 
 });
+
+function goToTop(){
+    window.scrollTo(0, 0);
+}
 
 function getData(media_type, time_window) {
   //access web service using the ajax function.
