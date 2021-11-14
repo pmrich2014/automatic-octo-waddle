@@ -23,6 +23,7 @@ label {
   font-weight: bold;
   line-height: normal;
   border: none;
+  scroll-behavior: smooth;
 }
 
 
@@ -122,6 +123,7 @@ label {
     font-weight: bold;
     line-height: normal;
     border: none;
+    scroll-behavior: smooth;
   }
 
   .form-select {
