@@ -88,8 +88,8 @@ a:hover {
     font-size: 10px;
   }
 
-  a {
-    text-align: center;
+  #footerAbout {
+    content-align: center;
   }
 
   .form-select{
