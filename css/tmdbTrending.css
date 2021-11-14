@@ -88,6 +88,10 @@ a:hover {
     font-size: 10px;
   }
 
+  a {
+    text-align: center;
+  }
+
   .form-select{
     font-size: 25px;
   }
