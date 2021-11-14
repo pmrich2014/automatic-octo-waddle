@@ -71,7 +71,7 @@ a:hover {
   grid-gap: .5rem .25rem;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 500px) {
   body{
     text-align: left;
   }
